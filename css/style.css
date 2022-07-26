@@ -1,54 +1,75 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
     font: 20px Arial-Serif;
 }
-.navbar{
-    background-image: linear-gradient(to right, #070513, #307fc9);    
+
+.navbar {
+    background-image: linear-gradient(to right, #070513, #307fc9);
 }
-.navbar-light .navbar-nav .nav-link{
+
+.navbar-light .navbar-nav .nav-link {
     color: rgb(65, 225, 253);
 }
-.quem-somos{
+
+.quem-somos {    
     padding-top: 50px;
     padding-bottom: 100px;
     background-color: #9ddacb;
     color: rgb(59, 59, 70);
 }
-.parceiros{      
+
+.parceiros {
     padding-top: 50px;
     background-color: #a75293;
     color: rgb(251, 249, 255);
 }
-.servicos{
+
+.servicos {    
     padding-top: 50px;
-    background-color: #edb92e;
+    background-color: rgb(255, 124, 16);
     color: #070513;
 }
-.somos{
+
+.somos {
     padding-top: 50px;
 }
-.texto{
+
+.texto {
     padding-top: 20px;
     padding-bottom: 50px;
 }
-.fale-com-a-gente{
+
+.fale-com-a-gente {
+    padding-top: 50px;    
+    background: rgba(93, 167, 201, 0.342);
+    color: #23108f;
     padding-top: 50px;
-    background-color: #a9d0f0 ;
-    color: #510f88;
-    padding-top: 50px;
-    
 }
-.btn-primary{
+.form-group{
+    margin-left: 30%;
+    align-items: center;
+}
+
+.btn-primary {
     padding-inline: 50px;
     background-color: #9751e6;
     border-color: #9751e6;
 }
-.margin{
+
+.margin {
     margin-bottom: 15px;
 }
-.footer{
+
+.footer {
     background-color: #1b1b1b;
     color: #948c8c;
 }
-.footer a{
-    color:#e4e716;
+
+.footer a {
+    color: #e4e716;
 }
